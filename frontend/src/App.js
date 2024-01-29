@@ -12,6 +12,8 @@ const App = () => {
     e.preventDefault();
     console.log(word);
   }
+
+  console.log(process.env.REACT_APP_UNSPLASH_KEY);
   
   return (
     <div>
