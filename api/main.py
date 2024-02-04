@@ -12,7 +12,7 @@ UNSPLASH_KEY=os.environ.get("UNSPLASH_KEY", "")
 DEBUG=bool(os.environ.get("DEBUG", True))
 
 if not UNSPLASH_KEY:
-   raise EnvironmentError("Please create .env.local file and insert UNSPLASH_KEY")
+  raise EnvironmentError("Please create .env.local file and insert UNSPLASH_KEY")
 
 app = Flask(__name__)
 CORS(app)
