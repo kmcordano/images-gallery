@@ -7,5 +7,6 @@
    ],
    "editor.codeActionsOnSave": {
       "source.fixAll.eslint": "explicit"
-   }
+   },
+   "python.analysis.extraPaths": [".\\api\\.venv\\Lib\\site-packages"]
 }
